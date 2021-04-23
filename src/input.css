@@ -1,0 +1,31 @@
+.input{
+    width: 40%;
+    height: 35px;
+}
+.input-button{
+    height: 41px;
+}
+
+/* массив значений list */
+
+.wrap{
+    background-color: cornflowerblue;
+}
+.wrap__top{
+}
+.wrap__top-text{
+    text-align: justify;
+}
+.wrap__top-text::before{
+    content: "\27A4";
+}
+
+.wrap__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.wrap__bottom-time{
+    display: flex;
+    align-items: flex-end;
+}
